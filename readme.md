@@ -1,5 +1,6 @@
 
-##Publish
+Publish
+----------
 
 - First you need to type: **npm login**
 - Then login with your NPM creditials
