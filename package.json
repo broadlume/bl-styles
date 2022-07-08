@@ -4,7 +4,8 @@
   "description": "Standard Broadlume style",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm version patch && npm minify-dir ./working ./dist && npm publish"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/broadlume/bl-styles/issues"
   },
-  "homepage": "https://github.com/broadlume/bl-styles#readme"
+  "homepage": "https://github.com/broadlume/bl-styles#readme",
+  "dependencies": {
+    "minify-dir": "^1.0.6"
+  }
 }
