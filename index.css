@@ -13,3 +13,125 @@ body {
     color:#221E20;
     font-feature-settings: 'calt' off;
 }
+
+h6, h5, h4, h3, h2, h1 {
+    font-family: 'Moret';
+    font-weight: bold;
+    font-style: normal;
+    font-feature-settings: 'calt' off;
+}
+
+h4 {
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+span {
+    font-family: 'Filson Pro';
+}
+
+input {
+    font-size: 0.75em;
+}
+
+input[type]:not([type=radio]) {
+    font-family: 'Filson Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 22px;
+    font-feature-settings: 'calt' off;
+}
+
+input[type=radio]:checked{
+    background-color:#24CAFF;
+    border-color: #24CAFF;
+}
+
+.header-item {
+    font-size: '1.25em';
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    margin-left:2px
+}
+
+.seperator {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1em;
+}
+
+.ui-header {
+    font-size: 16px;
+    line-height: 21px;
+    font-variant: normal;
+    text-transform: none;
+    font-weight: 550;
+    color: #221E20;
+    padding: 0;
+    display: block;
+}
+
+.ui-label {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    font-variant: normal;
+    text-transform: none;
+    font-weight: 550;
+    color: #221E20;
+    padding: 0;
+    position: relative;
+    display: block;
+    flex: 1 0 100%;
+}
+
+.ui-radio-text {
+    color: #221E20;
+    /* height: 2.5rem;
+    border-radius: 3px;
+    margin-right: 1ex;
+    font-size: 14px !important;
+    font-weight: 200; */
+}
+
+.ui-image {
+    height: 25px;
+    padding: 2px;
+    object-fit: contain;    
+    margin-left: auto;
+}
+
+.card-images {
+    text-align: right;
+    white-space: nowrap;
+    padding: 2px !important;
+}
+
+.submit-button {
+    background-color: #a52f76;
+    border: 1px;
+    border-radius: 100px;
+    color: #fff8e6;
+    justify-content: right;
+    padding: .5em .5em;
+    float: right;
+}
+
+.submit-button:hover {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    padding: .5em .5em;
+    gap: 10px;
+
+    /* Heart */
+    border: 1px solid #A52F76;
+    background-color: white;
+    border-radius: 100px;
+    color: #a52f76;
+}
