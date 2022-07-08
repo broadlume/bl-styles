@@ -1,4 +1,15 @@
+@font-face {
+    font-family: 'Filson Pro';
+    src: local('Filson Pro'), url(./fonts/FilsonProRegular.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
 
 body {
-  font-size:1em;
+    font-family: 'Filson Pro';
+    font-style: normal;
+    font-weight: 425;
+    font-size: 16px;
+    color:#221E20;
+    font-feature-settings: 'calt' off;
 }
