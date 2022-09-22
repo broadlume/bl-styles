@@ -15,7 +15,7 @@ body {
 }
 
 h6, h5, h4, h3, h2, h1 {
-    font-family: 'Moret';
+    font-family: 'Filson Pro';
     font-weight: bold;
     font-style: normal;
     font-feature-settings: 'calt' off;
@@ -134,4 +134,45 @@ input[type=radio]:checked{
     background-color: white;
     border-radius: 100px;
     color: #a52f76;
+}
+
+/*  Color pallet  */
+.color-wool {
+    background-color:#FFF8E6;
+    color: #221E20;
+}
+
+.color-ash {
+    background-color: #221E20;
+    color:#FFF8E6;
+}
+
+.color-gold {
+    background-color: #EEA820;
+    color:#221E20;
+}
+
+.color-beryl {
+    background-color: #3FCFAD;
+    color:#221E20;
+}
+
+.color-mosaic {
+    background-color: #24CAFF;
+    color:#221E20;
+}
+
+.color-heart {
+    background-color: #A52F76;
+    color:#FFF8E6;
+}
+
+.color-success {
+    background-color: #20A585;
+    color:#FFF8E6;
+}
+
+.color-error {
+    background-color: #B71717;
+    color:#FFF8E6;
 }
