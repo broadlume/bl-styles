@@ -49,6 +49,11 @@ input[type=radio]:checked{
     border-color: #24CAFF;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 .header-item {
     font-size: '1.25em';
 }
@@ -111,14 +116,22 @@ input[type=radio]:checked{
     padding: 2px !important;
 }
 
-.submit-button {
-    background-color: #a52f76;
+.centered {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button {
     border: 1px;
     border-radius: 100px;
-    color: #fff8e6;
     justify-content: right;
     padding: .5em .5em;
-    float: right;
+}
+
+.submit-button {
+    background-color: #a52f76;
+    color: #fff8e6;
 }
 
 .submit-button:hover {
