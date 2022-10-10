@@ -27,12 +27,26 @@ module.exports = function (grunt) {
             ext: '.min.js'
           }]
         }
+      },
+      copy: {
+        build: {
+          files: [{
+            expand: true,
+            src: ['working/resources/**'],
+            dest: 'dist/resources',
+          },
+          {
+            expand: true,
+            src: ['working/fonts/**'],
+            dest: 'dist/fonts',
+          }]
+        }
       }
     });
 
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-
+    grunt.loadNpmTasks('grunt-contrib-copy')
     // Default task(s).
-    grunt.registerTask('default', ['cssmin', 'uglify']);
+    grunt.registerTask('default', ['cssmin', 'uglify', 'copy']);
 };
