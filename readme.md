@@ -12,5 +12,5 @@ Publish
 - First you need to type: **npm login**
 - Then login with your NPM creditials
 - Once logged in you can now publish
-- To publish package type **npm run publish**. This will increment the release and publish the changes to npm
+- To publish package type **npm run patch-publish**. This will increment the release and publish the changes to npm
  
