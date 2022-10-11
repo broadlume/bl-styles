@@ -47,9 +47,21 @@ input[type=radio]:checked{
     border-color: #24CAFF;
 }
 
+input:disabled {
+    background-color: #747474;
+    color: #D1D1D1;
+    border: 1px solid #747474;
+}
+
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #221E20;
     border-collapse: collapse;
+}
+
+.ui-form {
+    border: 1px solid #221E20;
+    padding:1rem;
+    border-radius: 1rem;
 }
 
 .header-item {
@@ -88,7 +100,6 @@ table, th, td {
     color: #221E20;
     padding: 0;
     position: relative;
-    display: block;
     flex: 1 0 100%;
 }
 
@@ -156,6 +167,11 @@ table, th, td {
 .color-ash {
     background-color: #221E20;
     color:#FFF8E6;
+}
+
+.color-medium-ash {
+    background-color: #747474;
+    color: #D1D1D1;
 }
 
 .color-gold {
