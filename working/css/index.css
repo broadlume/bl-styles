@@ -149,7 +149,6 @@ table, th, td {
     box-sizing: border-box;
 
     /* Auto layout */
-    display: flex;
     padding: .5em .5em;
     gap: 10px;
 
@@ -171,7 +170,6 @@ table, th, td {
     box-sizing: border-box;
 
     /* Auto layout */
-    display: flex;
     padding: .5em .5em;
     gap: 10px;
 
