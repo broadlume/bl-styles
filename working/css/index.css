@@ -136,11 +136,13 @@ table, th, td {
     border-radius: 100px;
     justify-content: right;
     padding: .5em .5em;
+    float: none;
 }
 
 .submit-button {
     background-color: #a52f76;
     color: #fff8e6;
+    float: none;
 }
 
 .submit-button:hover {
@@ -156,6 +158,29 @@ table, th, td {
     background-color: white;
     border-radius: 100px;
     color: #a52f76;
+    float: none;
+}
+
+.primary-button {
+    background-color: #FFF8E6;
+    color: #221E20;
+    float: none;
+}
+
+.primary-button:hover {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    padding: .5em .5em;
+    gap: 10px;
+
+    /* Heart */
+    border: 1px solid #221E20;
+    background-color: #221E20;
+    border-radius: 100px;
+    color: #FFF8E6;
+    float: none;
 }
 
 /*  Color pallet  */
