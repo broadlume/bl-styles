@@ -58,6 +58,37 @@ table, th, td {
     border-collapse: collapse;
 }
 
+.ui-nav {
+    background-color: #221E20;
+    color:#FFF8E6;
+    min-height: 3.2rem;
+    margin: 2rem;
+    display:block;
+}
+
+.ui-nav a {
+    text-decoration: none;
+    padding: 1rem;
+    float: left;
+    display:block;
+    background-color: #221E20;
+}
+
+.ui-nav a:hover {
+    background-color: #FFF8E6;
+    color: #221E20;
+    cursor: pointer;
+}
+
+.ui-nav a.nav-active {
+    background-color: #FFF8E6;
+    color:#221E20;
+}
+
+.ui-nav a.expand {
+    display: none;
+}
+
 .ui-form {
     border: 1px solid #221E20;
     padding:1rem;
@@ -96,7 +127,7 @@ table, th, td {
     text-align: left;
     font-variant: normal;
     text-transform: none;
-    font-weight: 550;
+    font-weight: 450;
     color: #221E20;
     padding: 0;
     position: relative;
@@ -137,6 +168,7 @@ table, th, td {
     border-radius: 100px;
     justify-content: right;
     padding: .5em .5em;
+    cursor: pointer;
 }
 
 .submit-button {
@@ -231,3 +263,30 @@ table, th, td {
     background-color: #B71717;
     color:#FFF8E6;
 }
+
+/* Navbar */
+@media screen and (max-width: 700px){
+    nav a:not(:first-child) {
+        display: none;
+    }
+    nav a.expand {
+        float: right;
+        display: block;
+    }
+
+    nav.responsive {
+        position: relative;
+    }
+
+    nav.responsive a.expand {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav.responsive a {
+        float: none;
+        display: block;
+    }
+}
+/* end navbar */
