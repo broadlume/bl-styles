@@ -1,6 +1,6 @@
 {
-  "name": "bl_styles",
-  "version": "1.1.11",
+  "name": "BroadlumeStyles",
+  "version": "1.2.0",
   "description": "Standard Broadlume style",
   "main": "index.js",
   "scripts": {
